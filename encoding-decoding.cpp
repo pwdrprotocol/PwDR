@@ -1,4 +1,4 @@
-//author: Aydin Abadi
+
 #include <iostream>
 #include <math.h>
 #include <string>
