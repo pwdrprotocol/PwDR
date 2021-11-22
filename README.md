@@ -18,7 +18,7 @@
         
         g++ -c Rand.cpp
         
-        g++ -I /Directory/cryptopp -I/Directory/bloom_filter/bloom_filter.hpp  Rand.o  generic-encoding-decoding.cpp /Directory/cryptopp/libcryptopp.a  -o main -lgmpxx -lgmp
+        g++ -I /Directory/cryptopp -I/Directory/bloom_filter/bloom_filter.hpp  Rand.o  X /Directory/cryptopp/libcryptopp.a  -o main -lgmpxx -lgmp
         
         ./main
         
