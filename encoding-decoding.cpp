@@ -1,14 +1,12 @@
+// The implementation of the efficient encoding-decoding protocol when the threshold is 1. 
+//-----------------
+// Dependencies:
 
-///////////////////////////////////////
-
-
-// 
-// Dependencies
 // GMP: https://gmplib.org/
 // Cryptopp: https://www.cryptopp.com
 // Bloom filter: http://www.partow.net/programming/bloomfilter/index.html
 
-------------------
+//------------------
 // Runnig a Test:
 // clone the above libraries, and the PwDR file.
 // install the libraries and unzip "PwDR-main" file.
@@ -22,9 +20,9 @@
  
 //  ./main
 
------------------
+//-----------------
 // Directory: is the directory in which the above libraries (e.g., Bloom filter, Cryptopp) have been downloaded to.
------------------
+//-----------------
 
 
 ////////////////////////////////////////
