@@ -15,8 +15,11 @@
 3. run the following command lines in order:
 
         cd Directory/PwDR-main
+        
         g++ -c Rand.cpp
+        
         g++ -I /Directory/cryptopp -I/Directory/bloom_filter/bloom_filter.hpp  Rand.o  generic-encoding-decoding.cpp /Directory/cryptopp/libcryptopp.a  -o main -lgmpxx -lgmp
+        
         ./main
         
         
