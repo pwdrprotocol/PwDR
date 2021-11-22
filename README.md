@@ -23,5 +23,6 @@
         ./main
         
         
-    
+ X: can be set to either encoding-decoding.cpp or generic-encoding-decoding.cpp
+ Directory: is the directory in which the above libraries (e.g., Bloom filter, Cryptopp) have been downloaded to. 
 
